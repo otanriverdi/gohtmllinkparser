@@ -1,4 +1,6 @@
-package parser
+// Package htmllinkparser is an HTML link parser to find all links (<a> tags) within
+// an HTML document. Nested links are ignored.
+package htmllinkparser
 
 import (
 	"io"
